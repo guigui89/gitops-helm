@@ -16,5 +16,5 @@ spec:
   values:
     image: guigui89/podinfo:dev-ebc2y8jr
     replicaCount: 1
-    #    hpa:
-    #      enabled: false    
+    hpa:
+      enabled: false    
