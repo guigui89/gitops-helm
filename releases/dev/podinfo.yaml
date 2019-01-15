@@ -10,11 +10,11 @@ metadata:
 spec:
   releaseName: podinfo-dev
   chart:
-    git: git@github.com:stefanprodan/gitops-helm
+    git: git@github.com:guigui89/gitops-helm
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:dev-hdtwcel9
+    image: guigui89/podinfo:dev-l8fiklun
     replicaCount: 1
-    hpa:
-      enabled: false
+    #    hpa:
+    #      enabled: false    
